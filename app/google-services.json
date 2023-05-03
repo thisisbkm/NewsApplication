@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "90147044185",
+    "project_id": "concrete-braid-302215",
+    "storage_bucket": "concrete-braid-302215.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90147044185:android:b1de9b356b1a5fd3c42a48",
+        "android_client_info": {
+          "package_name": "com.thisisbkm.newsapplicationproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90147044185-5b2feng4us7mpk2pe7im3a7od57tjf17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI-kW2OZAaSP-nBas-mm8nk158L7JBpu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90147044185-5b2feng4us7mpk2pe7im3a7od57tjf17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
