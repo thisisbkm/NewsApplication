@@ -1,10 +1,10 @@
 package com.thisisbkm.newsapplicationproject
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.thisisbkm.newsapplicationproject.databinding.ActivityLoginBinding
 
@@ -19,6 +19,9 @@ class LoginActivity : AppCompatActivity() {
         binding.register.setOnClickListener {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
+        binding.reset.setOnClickListener {
+            startActivity(Intent(this, ResetActivity::class.java))
+        }
         binding.login.setOnClickListener {
             binding.progressBar.visibility = View.VISIBLE
             val email = binding.textEmail.text.toString()
@@ -29,17 +32,16 @@ class LoginActivity : AppCompatActivity() {
                 binding.progressBar.visibility = View.GONE
             } else {
                 auth.signInWithEmailAndPassword(email, password)
-                    .addOnCompleteListener(this) { task ->
-                        if (task.isSuccessful) {
-                            Toast.makeText(this, "Successfully Logged in", Toast.LENGTH_SHORT).show()
-                            binding.progressBar.visibility = View.GONE
-                            startActivity(Intent(this, MainActivity::class.java))
-                            finish()
-                        } else {
-                            binding.progressBar.visibility = View.GONE
-                            Toast.makeText(this, "You need to register... ", Toast.LENGTH_SHORT).show()
-                        }
+                    .addOnSuccessListener(this) { task ->
+                        Toast.makeText(this, "Successfully Logged in", Toast.LENGTH_SHORT).show()
+                        binding.progressBar.visibility = View.GONE
+                        startActivity(Intent(this, MainActivity::class.java))
+                        finish()
+                    }.addOnFailureListener {
+                        Toast.makeText(this, it.message.toString(), Toast.LENGTH_SHORT).show()
+                        binding.progressBar.visibility = View.GONE
                     }
+
             }
         }
     }

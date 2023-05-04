@@ -13,7 +13,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        app:titleTextColor="#fff"
+        app:titleTextColor="@color/purple_500"
         app:title="@string/app_name" />
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
@@ -36,8 +36,8 @@
         android:layout_gravity="start"
         android:fitsSystemWindows="true"
         android:background="@drawable/rounded"
-        android:backgroundTint="#141414"
-        app:itemTextColor="#fff"
+        android:backgroundTint="@color/layer2"
+        app:itemTextColor="@color/cred"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/items"/>
 </androidx.drawerlayout.widget.DrawerLayout>

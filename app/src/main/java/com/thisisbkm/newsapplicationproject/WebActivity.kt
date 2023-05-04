@@ -21,9 +21,4 @@ class WebActivity : AppCompatActivity() {
            webView.loadUrl(url)
         }
     }
-
-    override fun onRestart() {
-        super.onRestart()
-        finish()
-    }
 }

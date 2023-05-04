@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="layer1">#080808</color>
-    <color name="layer2">#0f0f0f</color>
-    <color name="layer3">#121212</color>
-    <color name="layer4">#212121</color>
-    <color name="layer5">#262626</color>
-    <color name="layer6">#2d2e2e</color>
-    <color name="layer7">#363636</color>
+<!--    <color name="layer1">#080808</color>-->
+<!--    <color name="layer2">#0f0f0f</color>-->
+<!--    <color name="layer3">#121212</color>-->
+<!--    <color name="layer4">#212121</color>-->
+<!--    <color name="layer5">#262626</color>-->
+<!--    <color name="layer6">#2d2e2e</color>-->
+<!--    <color name="layer7">#363636</color>-->
 
 
 
-    <color name="llayer1">#ffffff</color>
-    <color name="llayer2">#dedede</color>
-    <color name="llayer3">#bdbdbd</color>
-    <color name="llayer4">#9e9e9e</color>
-    <color name="llayer5">#c2bcbc</color>
-    <color name="llayer6">#a8a2a2</color>
-    <color name="llayer7">#918d8d</color>
+<!--    <color name="llayer1">#ffffff</color>-->
+<!--    <color name="llayer2">#dedede</color>-->
+<!--    <color name="llayer3">#bdbdbd</color>-->
+<!--    <color name="llayer4">#9e9e9e</color>-->
+<!--    <color name="llayer5">#c2bcbc</color>-->
+<!--    <color name="llayer6">#a8a2a2</color>-->
+<!--    <color name="llayer7">#918d8d</color>-->
 
 
 

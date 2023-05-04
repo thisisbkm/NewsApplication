@@ -17,8 +17,6 @@ import com.androidnetworking.error.ANError
 import com.androidnetworking.interfaces.JSONObjectRequestListener
 import com.google.firebase.auth.FirebaseAuth
 import com.jacksonandroidnetworking.JacksonParserFactory
-import com.madrapps.pikolo.RGBColorPicker
-import com.madrapps.pikolo.listeners.SimpleColorSelectionListener
 import com.thisisbkm.newsapplicationproject.databinding.ActivityMainBinding
 import org.json.JSONException
 import org.json.JSONObject
@@ -149,8 +147,6 @@ class MainActivity : AppCompatActivity() {
     companion object {
         // TODO : set the API_KEY variable to your api key
         private const val API_KEY = "5c33cfb4e0a54dbc80b94ea3935f88c9"
-
-        // setting the TAG for debugging purposes
         private const val TAG = "MainActivity"
     }
     private fun signOut(){

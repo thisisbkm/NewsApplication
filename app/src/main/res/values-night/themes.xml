@@ -12,5 +12,13 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
     </style>
+    <color name="layer1">#080808</color>
+    <color name="layer2">#0f0f0f</color>
+    <color name="layer3">#121212</color>
+    <color name="layer4">#212121</color>
+    <color name="layer5">#262626</color>
+    <color name="layer6">#2d2e2e</color>
+    <color name="layer7">#363636</color>
 </resources>

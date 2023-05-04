@@ -15,6 +15,9 @@
         android:theme="@style/Theme.NewsApplicationProject"
         tools:targetApi="31">
         <activity
+            android:name=".ResetActivity"
+            android:exported="false" />
+        <activity
             android:name=".ColorPicker"
             android:exported="false" />
         <activity
